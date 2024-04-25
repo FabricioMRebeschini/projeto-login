@@ -14,3 +14,20 @@
         height: 100%;
     }
 }
+
+@media (max-height:400px){
+    div.login{
+        width: 100%;
+        height: 75vh;   
+    }
+    
+    div.imagem{
+        display: none;
+        width: 100%;
+        height: 25vh;
+        background: #9146DB url(../img/img02.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}
