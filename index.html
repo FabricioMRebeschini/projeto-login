@@ -9,22 +9,26 @@
 </head>
 <body>
     <main>
-        <section>
-            <div class="login">
+        <section id="login">
+            <div id="imagem">
+                foto
+            </div><!--imagem-->
+
+            <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a). Faça login para acessar seu ambiente.</p>
-                <form>
-                    <p><input type="email" name="email" id="iemail" placeholder="E-mail"></p>
-                    <p><input type="password" name="password" id="ipassword" placeholder="Senha"></p>
+
+                <form action="login.php" method="post">
+                    <p><input type="email" name="email" id="iemail" placeholder="E-mail" required></p>
+                    <p><input type="password" name="password" id="ipassword" placeholder="Senha" required></p>
                     <p><input type="submit" value="Entrar"></p>
                     <p><input id="esqueci-senha" type="submit" value="Esqueci a senha"></p>
                 </form>
-            </div><!--login-->
 
-            <div class="imagem">
+            </div><!--formulario-->
 
-            </div><!--imagem-->
-        </section>
+
+        </section><!--login-->
     </main>
 </body>
 </html>
