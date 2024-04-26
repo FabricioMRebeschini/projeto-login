@@ -15,7 +15,7 @@
 }
 
 html, body{
-    background-color:#5c6bdb7c ;
+    background-color:#5C6BDB;
     height: 100vh;
     width: 100vw;
 }
@@ -43,7 +43,7 @@ section#login{
 
 section#login div#imagem{
     display: block;
-    background: #5DDB76 no-repeat url('../img/img03.jpg');
+    background: #5DDB76 no-repeat url('../img/img01.jpg');
     height: 200px;
     background-position: left bottom;
     background-size: cover;
@@ -58,4 +58,39 @@ section#login > div#formulario{
 section#login > div#formulario h1{
     text-align: center;
     margin: 10px 0;
+}
+
+div#formulario p{
+    font-size: 14px;
+}
+
+form div.botoes{
+    margin: 10px 0;
+    
+}
+
+form div.botoes input#entrar{
+    background-color: #5DDB76;
+    width: 100%;
+    padding: 4px;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    border: none;
+}
+form div.botoes input#entrar:hover{
+    background-color: #3b9c4e;
+}
+
+form div.botoes input#esqueci-senha{
+    background-color: white;
+    width: 100%;
+    padding: 4px;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 5px;
+    border: 1px solid #3b9c4e;
+}
+
+form div.botoes input#esqueci-senha:hover{
+    background-color: #3b9c4e;
 }
