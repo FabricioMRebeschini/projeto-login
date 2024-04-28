@@ -15,7 +15,7 @@
 }
 
 html, body{
-    background-color:#5C6BDB;
+    background-color:#4d1d99bc;
     height: 100vh;
     width: 100vw;
 }
@@ -64,18 +64,54 @@ div#formulario p{
     font-size: 14px;
 }
 
-form div.botoes{
-    margin: 10px 0;
-    
+form div.campo{
+        background-color: #5C6BDB;
+        height: 40px;
+        border-radius: 8px;
+        margin-top: 10px;
+        border: 2px solid #5C6BDB ;
 }
+
+div.campo >label{
+    display: none;
+}
+
+div.campo >span{
+    color: white;
+    font-size: 2rem;
+    width: 40px;
+    padding: 4px;
+}
+
+div.campo > input{
+    width: calc(100% - 44px);
+    transform: translateY(-11.5px);
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 4px;
+}
+
+
+
+form div.botoes p{
+    margin-bottom: 1px;
+}
+
+
 
 form div.botoes input#entrar{
     background-color: #5DDB76;
     width: 100%;
+    height: 40px;
     padding: 4px;
     font-size: 1rem;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 4px;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 form div.botoes input#entrar:hover{
     background-color: #3b9c4e;
@@ -84,13 +120,18 @@ form div.botoes input#entrar:hover{
 form div.botoes input#esqueci-senha{
     background-color: white;
     width: 100%;
+    height: 40px;
     padding: 4px;
     font-size: 1rem;
     border: none;
     margin-bottom: 5px;
     border: 1px solid #3b9c4e;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 form div.botoes input#esqueci-senha:hover{
     background-color: #3b9c4e;
 }
+
+
